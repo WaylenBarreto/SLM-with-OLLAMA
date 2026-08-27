@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "name": "Core Local SLM Suite",
+  "tasks": [
+    {
+      "id": "reasoning-001",
+      "category": "reasoning",
+      "prompt": "A train leaves at 09:15 and travels for 2 hours 35 minutes. At what time does it arrive? Answer with the time and a one-sentence calculation.",
+      "evaluation": {"type": "contains", "expected": ["11:50"]}
+    },
+    {
+      "id": "factual-001",
+      "category": "factual",
+      "prompt": "What is the capital of Japan? Answer with only the city name.",
+      "evaluation": {"type": "exact", "expected": ["Tokyo"]}
+    },
+    {
+      "id": "summary-001",
+      "category": "summarization",
+      "prompt": "Summarize in two sentences: Local inference keeps prompts and responses on the user's machine. It can reduce recurring API costs and improve privacy, but available speed and quality depend on local hardware and model size.",
+      "evaluation": {"type": "criteria", "expected": ["local machine", "privacy", "hardware"]}
+    },
+    {
+      "id": "json-001",
+      "category": "structured_json",
+      "prompt": "Extract the person and role as valid JSON with exactly the keys person and role: Ada Lovelace was a mathematician and early computing pioneer.",
+      "evaluation": {"type": "json", "expected": ["person", "role"]}
+    },
+    {
+      "id": "coding-001",
+      "category": "coding",
+      "prompt": "Write a Python function named is_even that accepts an integer and returns True when it is divisible by 2. Return code only.",
+      "evaluation": {"type": "contains", "expected": ["def is_even", "% 2"]}
+    },
+    {
+      "id": "instruction-001",
+      "category": "instruction_following",
+      "prompt": "List exactly three benefits of local language models. Use a numbered list and no introduction.",
+      "evaluation": {"type": "criteria", "expected": ["1.", "2.", "3."]}
+    }
+  ]
+}
