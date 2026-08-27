@@ -6,6 +6,14 @@
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/UI-React%20%2B%20TypeScript-61DAFB?logo=react&logoColor=111111)](https://react.dev/)
 [![Runtime](https://img.shields.io/badge/Inference-Ollama-black)](https://ollama.com/)
+**Dashboard**
+<img width="1882" height="903" alt="image" src="https://github.com/user-attachments/assets/c32b53d7-4398-4103-8396-eb2dff639b30" />
+**Ollama Models to test**
+<img width="1870" height="812" alt="image" src="https://github.com/user-attachments/assets/0840d9a9-80e6-4021-8028-da7c3af9fbc0" />
+**Summary of the runs completed**
+<img width="1750" height="660" alt="image" src="https://github.com/user-attachments/assets/76219b13-4de6-40c0-9024-50159757d774" />
+
+
 
 ## Why this project
 
